@@ -12,8 +12,18 @@ El programa cumple con los siguientes requisitos:
 - Confirmación de contraseña (los dos campos deben coincidir)  
 
 ---
-# Capturas de pantalla 
+## Capturas de pantalla 
+### 1. Interfaz inicial
+![Interfaz inicial](Capturas/interfaz.png)
 
+### 2. Error de validación
+![Error de validación](Capturas/error.png)
+
+### 3. Contraseñas no coinciden
+![Contraseñas no coinciden](Capturas/no-coinciden.png)
+
+### 4. Éxito
+![Éxito](Capturas/exito.png)
 ## Requisitos
 - Visual Studio 2022 
 - .NET 6.0 / 7.0 / 8.0 (cualquiera que hayas usado)  
@@ -24,4 +34,4 @@ El programa cumple con los siguientes requisitos:
    git clone https://github.com/Arludu19/WinForms-ValidationPassword.git
 
 ## Autor
-   Proyecto desarrollado por Luis Dueñas (Arludu19) como práctica para Ciberinfraestructura.
+   Proyecto desarrollado por **Luis Dueñas** (Arludu19) como práctica para Ciberinfraestructura.
