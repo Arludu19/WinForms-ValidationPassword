@@ -12,12 +12,11 @@ El programa cumple con los siguientes requisitos:
 - Confirmación de contraseña (los dos campos deben coincidir)  
 
 ---
+# Capturas de pantalla 
 
 ## Requisitos
 - Visual Studio 2022 
 - .NET 6.0 / 7.0 / 8.0 (cualquiera que hayas usado)  
-
----
 
 ## Instrucciones de uso
 1. Clona este repositorio o descárgalo.  
