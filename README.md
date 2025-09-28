@@ -72,7 +72,8 @@ private void btnValidar_Click(object sender, EventArgs e)
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
 }
-
+```
 1. Clona este repositorio o descárgalo.  
    ```bash
    git clone https://github.com/Arludu19/WinForms-ValidationPassword.git
+   ```
