@@ -24,6 +24,7 @@ El programa cumple con los siguientes requisitos:
 ### 4. Éxito
 ![Éxito](/Interfaz/exito.png)
 
+---
 ## Autor
    Proyecto desarrollado por **Luis Dueñas** (Arludu19) como práctica para Ciberinfraestructura.
    
