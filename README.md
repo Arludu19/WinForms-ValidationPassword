@@ -15,17 +15,14 @@ El programa cumple con los siguientes requisitos:
 ### 1. Interfaz inicial
 <img src="/Interfaz/Interfaz.png" alt="Interfaz inicial" width="400"/>
 
-
-![Interfaz inicial](/Interfaz/Interfaz.png)
-
 ### 2. Error de validación
-![Error de validación](/Interfaz/error.png)
+<img src="/Interfaz/error.png" alt="Error de validación" width="400"/>
 
 ### 3. Contraseñas no coinciden
-![Contraseñas no coinciden](/Interfaz/no.png)
+<img src="/Interfaz/no.png" alt="Contraseñas no coinciden" width="400"/>
 
 ### 4. Éxito
-![Éxito](/Interfaz/exito.png)
+<img src="/Interfaz/exito.png" alt="Éxito" width="400"/>
 
 ---
 ## Autor
