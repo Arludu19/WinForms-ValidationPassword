@@ -13,6 +13,9 @@ El programa cumple con los siguientes requisitos:
 ---
 ## Capturas de pantalla 
 ### 1. Interfaz inicial
+<img src="/Interfaz/Interfaz.png" alt="Interfaz inicial" width="400"/>
+
+
 ![Interfaz inicial](/Interfaz/Interfaz.png)
 
 ### 2. Error de validación
