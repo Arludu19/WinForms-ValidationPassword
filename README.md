@@ -23,3 +23,6 @@ El programa cumple con los siguientes requisitos:
 1. Clona este repositorio o descárgalo.  
    ```bash
    git clone https://github.com/Arludu19/WinForms-ValidacionPassword.git
+
+## Autor
+   Proyecto desarrollado por Luis Dueñas (Arludu19) como práctica para Ciberinfraestructura.
