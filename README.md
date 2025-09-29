@@ -39,13 +39,10 @@ Este es el método que valida la contraseña y confirma que ambas coincidan:
 ```csharp
 private void btnValidar_Click(object sender, EventArgs e)
 {
-    string pass = txtPassword.Text;
-    string confirm = txtConfirm.Text;
+    string pass = (txtPassword.Text ?? string.Empty).Trim();
+    string confirm = (txtConfirm.Text ?? string.Empty).Trim();
 
-    // Al menos 1 mayúscula, 1 minúscula, 1 número y 1 símbolo
-    string pattern = @"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^\w\s]).+$";
-
-    if (!System.Text.RegularExpressions.Regex.IsMatch(pass, pattern))
+    if (!PasswordRegex.IsMatch(pass))
     {
         MessageBox.Show(
             "La contraseña debe contener al menos:\n" +
@@ -59,19 +56,21 @@ private void btnValidar_Click(object sender, EventArgs e)
         return;
     }
 
-    if (pass != confirm)
+    if (!string.Equals(pass, confirm, StringComparison.Ordinal))
     {
-        MessageBox.Show("Las contraseñas no coinciden.",
-                        "Verificación",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
+        MessageBox.Show(
+            "Las contraseñas no coinciden.",
+            "Verificación",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Information);
         return;
     }
 
-    MessageBox.Show("La contraseña ha sido validada",
-                    "Éxito",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
+    MessageBox.Show(
+        "La contraseña ha sido validada",
+        "Éxito",
+        MessageBoxButtons.OK,
+        MessageBoxIcon.Information);
 }
 ```
 1. Clona este repositorio o descárgalo.  
